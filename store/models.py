@@ -7,6 +7,11 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+    
+    # edit name on django admin site
+    # OPTIONAl
+    class Meta:
+        verbose_name_plural = 'Categories'
 
 # customer
 class Customer(models.Model):
