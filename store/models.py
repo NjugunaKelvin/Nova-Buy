@@ -1,7 +1,7 @@
 from django.db import models
 import datetime
 
-# Categories of producst
+# Categories of products
 class Category(models.Model):
     name = models.CharField(max_length=50)
 
