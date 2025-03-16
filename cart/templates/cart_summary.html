@@ -55,15 +55,16 @@
                                 <div class="col-md-2">Quantity</div>
                                 <div class="col-md-2">
                                     <select class="form-select form-select-sm" id="qty-cart" >
-                                        <option selected>
+                                     
                                             {% for key, value in quantities.items %}
 
-                                                {% if key == product.id|slugify %}
-                                                    {{ value }}
+                                                {% if key == product.id %}
+                                        <option selected> {{ value }}</option>
+
                                                 {% endif %}
 
                                             {% endfor %}
-                                        </option>
+                                        
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
