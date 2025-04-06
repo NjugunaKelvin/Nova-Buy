@@ -10,3 +10,8 @@ This is a Django-based e-commerce platform designed to manage an online store wi
 - **Admin Panel**: Manage the platform using Django's built-in admin interface.
 - **Static and Media Files**: Serve static assets and uploaded media files.
 
+# More Info
+contact
+```
+njugunak349@gmail.com
+```
